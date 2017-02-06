@@ -1,0 +1,214 @@
+0:0 > another country thing that came out of the station while you were talking about over there you need protective like you're not was there for the weekend created for the
+0:10 > Stanley the reference architecture different operating system and something small and that can be used as a reference point for people to try out their techniques and
+0:20 > compare against each other. Thank you very much everybody much appreciated
+0:30 > and it's around 4 before 7 thank you
+0:0 > organising the topic of
+0:10 > Nations how to create two very important non functional properties of programs on today's architecture
+0:20 > predictability of timing as well as security would be the topic to isolate the different programs and resources
+0:30 > against each other as a common topic and sold to look at security and timing on the one who is something exceptional for this seminar.
+0:40 > come together here very important of global players phone on the topic of security especially an embedded security as well as her
+0:50 > productivity and Pregnant one-to-one table
+1:0 > if it was somehow so much
+1:10 > finally the system should work. I believe predictable predictable and the identity of the difference is that for one commune
+1:20 > this is the one that just even put some of his timing other stuff that the enemy attack is coming from internal right because she don't know
+1:30 > very well you don't know what I'm doing and they change the behavior of the system of that tried to keep it under control with the security people it's the other way
+1:40 > please come outside and do something
+1:50 > interesting contacts it's interesting to see how they influence each other
+2:0 > somehow one of the motivations
+2:10 > how did the impact each other and I think of Frank summary today was an excellent example of how security and predictability the sort of interact with each other whether you can use
+2:20 > activity techniques and you can use them to actually suck many security and vice versa and I put that that's something that would be interesting
+2:30 > we just going back to the topic again what do you mean by adaptability
+2:40 > activity of the importance not to half of these properties hold for everybody meeting every program
+2:50 > thought you might want to have some apps on your phone or your device to be protected with other others not in the same boat also for
+3:0 > ecosystems applications require tight real time constraints whereas others not and here we have
+3:10 > I can just name three important contributions to this that the cost if you create this properties for all application
+3:20 > happy to hide what's up with love comes with a price of mention how to switch on memory mapping units and how much does influences execution time to a trade-off between
+3:30 > guilty and end of timeliness and get stuff on Blue Diamond from a land on on demand isolation of applications on what ecosystems and and what does the
+3:40 > what time you going out of this and you yourself very interesting example of the country of pipelines to have security
+3:50 > speed enforced and Superman isolation perspective so I'm coming from the security so I fully agree with your brother
+4:0 > four wheeler cops is for something multi-stakeholder smartest this is a little bit like you're a different set time for the county requirements for Publications
+4:10 > you may have different stakeholders on a cut from the same cop from a different relationship between each other and change. You need to
+4:20 > isolation a single secure world isn't sufficient importance
+4:30 > NBA basketball more on that one second buddy mean by predictability
+4:50 > I see people live
+5:0 > system
+5:10 > suspect
+5:20 > something you predicted would like to
+0:0 > this is not the only that mention I think systems
+Google Speech Recognition could not understand audio
+0:20 > so availability
+0:30 > how many many others effective temperature
+0:40 > is hopefully is being I mean
+0:50 > at2020 and when is she really that was I don't think I don't think it's something
+1:0 > how do to become an she scale up to managing selling songs and videos
+1:10 > security perspective failing to do it today in smaller and sets of devices
+1:20 > 7216
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+2:50 > I guess I can I can start tracking this phone so we did some work come back out when we look at how you can do it today was his analysis for today
+3:0 > conception date and time so that you can you can any place in certain things like for example you can of course find the worst case
+3:10 > I'm going to find out with you know what is the worst case number of transitions that's going on and so on and so forth but certain things for example you don't know the rules and so you have to play
+3:20 > going to do a hundred percent flipped on and operation of what it is and I don't think there's any good way to solve that problem
+3:30 > people are looking at that and saying that the back part of the dynamic energy consumption is probably something that we had told Wizards and they're the worst case because
+3:40 > just the sticks face with blue updating the kind of problems we face for the Kardashians of morning if this is even worse
+3:50 > can I come forward and please.
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+5:20 > socialism
+5:30 > faces okay I think the one of the faces that you understand she tried to
+5:40 > Behavior will willing to be there on time
+5:50 > this is different because I'm like this because
+6:0 > go to Atticus what is going on
+6:10 > cannot properly describe buy alcohol tried so so it's more statistic that it is necessary
+6:20 > realistic elections today
+6:30 > especially on the energy harvesting and then all these effects
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+Google Speech Recognition could not understand audio
+7:20 > Sodexo
+
+0:10 > how much I can get it
+0:40 > is fine and that's kind of time
+0:50 > by the prospective when you see what is going on this week
+1:0 > try to understand what you can actually say all service
+1:10 > so I think we should be also
+1:20 > I'm going in two different directions
+1:30 > you anymore questions
+1:40 > probably
+1:50 > Medieval Times
+2:0 > real-time systems might be enough and that humans print checks to make certain that this would correctly on Durfee
+2:10 > the conditions that are you coming soon
+2:20 > I think I was talking earlier that I am in session about the Air Force
+2:30 > see the does around twice and that's a that's a processor that was developed know real-time safety predictability concerns
+2:40 > used fireplace so clearly the industry awesome Cycles Dentistry find acceptable to you
+2:50 > Computing devices please
+3:10 > require
+3:20 > how old is Japan
+0:0 > now
+0:10 > require
+0:50 > implementer
+1:0 > tendencies in high performance
+1:10 > the Invisible Hand
+1:20 > it is really fine
+1:50 > problems
+2:0 > Adventure
+2:20 > physical form or efficiency we going to probably need more and more time pretty turbo systems
+2:40 > thank you
+2:50 > so can we just talk about what are the tools and methods are mechanisms that available for isolation
+3:0 > such as virtualization Prada automatic mechanisms if you already have about this disgusted dissemination
+3:10 > isolation mechanisms used Aldo that's not what it was
+3:20 > absent
+3:30 > compliance figured you some real hard in the paint pen Sakura counties
+3:40 > Associated Ada's isolated from recipe system and it's good as the bills predictable systems
+3:50 > does it require several times I didn't want to make sure that I'm kind of switching.
+4:0 > graduation
+4:10 > you do need is you need isolation mechanisms that give you the right to talk to your friend about the computer than just a single world
+4:20 > for the reasons that talked about earlier on for something you might have to move these stakeholders and I are you may have a piece of software pieces of Wimpy from
+4:30 > places closest to the same platform different security County so you do need these many isolated of the ability to stand
+4:40 > open up servation I'm at like 2 to 12 in he is also the isolation of a topic here has been shown that it's
+4:50 > not the only it does not guarantee security and predictability enforceable in security if you want to communicate with the outside world
+5:0 > I need also at least a Disney encryption or other techniques as well as for timing predictability isolation is a helper to get may be tied up
+5:10 > under execution time but also that you might need other techniques complimentary because she would never be able to isolate applications fully twitch
+5:20 > that's some sharing of resources has been detected as unavoidable to in the closet
+5:30 > remind me
+5:40 > Define for for the highest grade security level on diving certification but only if it was disconnected from the night
+5:50 > I need to
+6:0 > it's not only Frozen to encrypting child protecting the child Souls what should I say to composite communicating with is what you
+6:10 > in another station mechanism that I love her and to the assistance.
+6:20 > the HTC Desire solved
+6:30 > just a commended let me talk about isolation the questions what do we have time because systems communicate
+6:40 > many different substrates rights also just talking about functional isolation memory they could also possibly speed isolation time
+6:50 > installation of one of Bruce's father on his slow you can also do whatever temperature isolation so isolation is this something that
+7:0 > for some many different exercises and they all influence each other
+7:10 > is it because it's too hot so in both areas isolation she is supposed to go
+7:20 > thank you for somebody
+7:30 > predictability Monster Energy security as well so what you want to do with one of minimizing my stuff but your stuff is Hardware farmer
+0:0 > you can also do whatever the temperature isolation so isolation is this something that works on many different exes and they only
+0:10 > Verizon Center
+0:20 > in both areas isolation should cover as many as possible substring thank you
+0:30 > concept of computing base somebody mentioned earlier about the complexity being the enemy of predictability and security as well
+0:40 > so what you want to do with one of my stuff but your stuff is Hardware former and so on so that you have a chance but you do is 1 ounces
+0:50 > basic Solutions correction
+1:0 > the monster address they had to add that isolation sort of gives you and Eliza bleeding some sense and resulted in
+1:10 > WTF you have to be able to fix your life easier in terms of analysis of inseam for PCB if you have a small footprint for the TCP that helps women
+1:20 > analyzing for security represent and also has overheads and I think that there was a lot of discussion on what is overhead for isolation
+1:30 > soak and predictable systems be compromised in the security sense because they
+1:40 > beating the complexity for the predictability does that give you a back to security
+2:0 > Corsican tried to make the execution time David longer and the system continuously restarts and it's unusable
+2:10 > tinnitus and really that's probably not have a security tackle happen because if you actually look what's happening I don't know why all the security time of the attackers used
+2:20 > the path of least resistance right so they're going to use things like City password configurations I look for bugs and programs stop taking
+2:30 > Buffalo Bills and so on and on. Sweetie where the attack on this Earth so what I'm saying is that I think for my modeling and Analysis
+2:40 > it's whatever it doesn't address this particular aspect of the needs to be set up some basic level of security best practices in terms of making sure that the
+2:50 > I need something like this because you have such players in the ecosystem
+3:0 > striving to get a product on the market as quickly as possible what's the first thing that drops off the table security so I'm just guessing
+3:10 > can you talk a little bit about the systems
+3:20 > can you come a little bit closer what I mean if there is a
+3:30 > economic incentive to make it a Tecmo complicated maybe hide the fact that they wasn't attacked by the mall
+3:40 > this actually not hypothetical but if you think about what happened to the centrifuge and Iran that's exactly what happened there
+3:50 > , so there may be a need to actually more sophisticated attacks and if you really want to secure system it you should look at it
+4:0 > security yes maybe some new term or so? Harder to achieve. I agree
+0:0 > Charter to achieve
+0:10 > how do you put security microphone
+0:20 > citizen to Envision it was definitely worth the chance when you are getting this was this morning
+0:30 > what are the mechanisms that can
+0:40 > make a tutu to make a system secure what's of the mechanisms
+0:50 > do we need more things
+1:0 > I have a friend who needs
+1:10 > I need a translation website so if you want to communicate with next time her and Krypto
+1:20 > is the minimum set of pictures that that's weather
+1:30 > 7/2 number of tools and mechanisms can somebody can summarize so can we just get a few
+1:40 > if you love this tune celebrity crest level system jwcc anything else.
+1:50 > the author security
+0:0 > I think they have a lot of friends you need
+0:10 > stimulation so if you want to text
+0:20 > the minimum said that's why
+0:30 > 702 number of tools and mechanisms can somebody can summarize so can we just get a few
+0:40 > get a feel of this to snow devils Seacrest Devils system jwcc anything else
+0:50 > search Sakura Co
+1:0 > Indigo that I missed. Please let us know that I give us some tools and mechanisms
+1:10 > came out of here into into an article book
+1:30 > what does it need to be secured as it leave cryptography
+1:50 > is another one for too long. What challenges by The Divide going forward I think we can
+2:0 > if you don't give me something you can always get away from this
+2:10 > who sings that's over he seemed to be important and have not been down adequately for example one is how to lift Consciousness about 140
+2:20 > timeliness and security is important to remember C2 system level design model-based and languages
+2:30 > social activities at language level at the highest level you don't specify that but these properties come only in very late
+2:40 > we just called today to previous design of languages as soon as you know what US concerning you at the highest level but it it seems it
+2:50 > only later did you verify that the synthesized code is not satisfying time it is or whatever but you have Mom's of concurrency in languages already that could have
+3:0 > the inventor of the isolationism consideration also involve your mother concurrency and how you would have something in terms of Cody's
+3:10 > it's one architecture was marginal cost of the exercise is over that's cause you're not and go in hand and this event design methodology. I guess not major
+3:20 > available expresses at the highest level is Constance cyclist what is the cost of the measures of getting in creating Security on the system as well
+3:30 > how much cost is it to protect Alexis against the same as you
+3:40 > what soap is the legends of what measures of redundancy will be able types of cost but I think in airport what was the cost of a
+3:50 > timing predictable implementation of what is the cost of the security measures that seems to be not completely Pac-12 at this and
+4:0 > how much more does it cost to you when you do this design decision yet
+4:50 > do it basically like a groceries who is actor for the weakest points for protect face again so I think we've identified
+5:0 > the processors are not necessary design predictability mind Arguments for and against that but that's a very big dork
+5:10 > but just as We complain that process or he's on his own now having predictability mind you might as well complain that I'm by the right
+5:20 > the predictability in mind off that modeling tools for the coaching register my child for activity in mind every saw something that looked like a presentation.
+5:30 > you can do something outside also and so I propose that we don't get the respect from there
+5:40 > what's of the challenges why did divide been in meetings as well as in the Breakout
+0:0 > Define already that the processors are not necessary design predictability mind and spread the good stuff that's up there
+0:10 > but complain that process or he's on his own now having predictability might be might as well complain.
+0:20 > find a Rochester predictability mind that modeling tools for their coaching register predictability mind every sauce
+0:30 > phone number if you can do something at the other side also and so I propose that. Look at the whole Spectrum there
+0:40 > the last question parts of the challenges identified in in in meetings as well as
+0:50 > the breakout sessions gentleman summarize fairly quickly
+1:0 > that's another Challenger
+1:10 > Beastie Boys
+1:20 > okay
+2:0 > the country thing that came out of the station while you were talking about the weather you need predictability or not was that way we can create references
+2:10 > the difference architecture different operating system and some benchmarks and that can be used as a reference point for people to try out their techniques and soda

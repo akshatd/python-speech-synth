@@ -1,0 +1,39 @@
+0:0 > now
+0:10 > require
+0:50 > implementer
+1:0 > tendencies in high performance
+1:10 > the Invisible Hand
+1:20 > it is really fine
+1:50 > problems
+2:0 > Adventure
+2:20 > physical form or efficiency we going to probably need more and more time pretty turbo systems
+2:40 > thank you
+2:50 > so can we just talk about what are the tools and methods are mechanisms that available for isolation
+3:0 > such as virtualization Prada automatic mechanisms if you already have about this disgusted dissemination
+3:10 > isolation mechanisms used Aldo that's not what it was
+3:20 > absent
+3:30 > compliance figured you some real hard in the paint pen Sakura counties
+3:40 > Associated Ada's isolated from recipe system and it's good as the bills predictable systems
+3:50 > does it require several times I didn't want to make sure that I'm kind of switching.
+4:0 > graduation
+4:10 > you do need is you need isolation mechanisms that give you the right to talk to your friend about the computer than just a single world
+4:20 > for the reasons that talked about earlier on for something you might have to move these stakeholders and I are you may have a piece of software pieces of Wimpy from
+4:30 > places closest to the same platform different security County so you do need these many isolated of the ability to stand
+4:40 > open up servation I'm at like 2 to 12 in he is also the isolation of a topic here has been shown that it's
+4:50 > not the only it does not guarantee security and predictability enforceable in security if you want to communicate with the outside world
+5:0 > I need also at least a Disney encryption or other techniques as well as for timing predictability isolation is a helper to get may be tied up
+5:10 > under execution time but also that you might need other techniques complimentary because she would never be able to isolate applications fully twitch
+5:20 > that's some sharing of resources has been detected as unavoidable to in the closet
+5:30 > remind me
+5:40 > Define for for the highest grade security level on diving certification but only if it was disconnected from the night
+5:50 > I need to
+6:0 > it's not only Frozen to encrypting child protecting the child Souls what should I say to composite communicating with is what you
+6:10 > in another station mechanism that I love her and to the assistance.
+6:20 > the HTC Desire solved
+6:30 > just a commended let me talk about isolation the questions what do we have time because systems communicate
+6:40 > many different substrates rights also just talking about functional isolation memory they could also possibly speed isolation time
+6:50 > installation of one of Bruce's father on his slow you can also do whatever temperature isolation so isolation is this something that
+7:0 > for some many different exercises and they all influence each other
+7:10 > is it because it's too hot so in both areas isolation she is supposed to go
+7:20 > thank you for somebody
+7:30 > predictability Monster Energy security as well so what you want to do with one of minimizing my stuff but your stuff is Hardware farmer
