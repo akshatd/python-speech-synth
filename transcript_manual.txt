@@ -1,0 +1,214 @@
+﻿0:0 > The organisers though joining the topic of isolation
+0:10 > as one means how to create two very important non functional properties of programs on today's architectures
+0:20 > namely predictability of timing as well as security would be the topic to isolate the different programs and the resources
+0:30 > against each other as a common topic and so to look at security and timing on the one (hoot)??? is something exceptional for this seminar.
+0:40 > that we got together here very important global players on the topic of security especially an embedded security as well as for
+0:50 > timing predictability and bring them on to one table. Anybody want to add anything to this?
+1:0 > for me it was somehow ()??? because I'm not so much in security but from far away it looks like they have similar goals right so
+1:10 > finally the system should work reliably predictable predictable and I think the difference is that for one community
+1:20 > this is the one that is dealing with for example timing or other stuff, the enemy, the attacker is coming from internal right because you don't know
+1:30 > what is going on internally you don't know the hardware very well you don't know the task they're  doing and they change the behavior of the system of that tried to keep this under control. for the security people it's the other way
+1:40 > round, the attacker from outside tries to disturb the system and do something with it and therefore there are certain similarities in the techniques, but also very
+1:50 > interesting contact points where it's interesting to see how they influence each other and the techniques whether they are
+2:0 > similar, whether they are different so this well somehow one of the motivations also to do (similar)???. You want to add something? I just wanted to add that what Lucas said that
+2:10 > how did they impact each other and I think Frank's summary today was an excellent example of how security and predictability the sort of interact with each other whether you can use
+2:20 > predictability techniques and you can use them to actually sort of manage security and vice versa and I thought that that's something that would be interesting
+2:30 > so just going back to the topic again what do you mean by adaptability
+2:40 > adaptability as in important means not to have these properties hold for everybody meaning every program citizen
+2:50 > but you might want to have some apps on your phone or your device to be protected where other are not in the same holds also for 
+3:0 > typical systems you want to use with mix critical applications so some require tight real time constraints whereas others not and here we have seen
+3:10 > I can just name three important contributions to this that the cost if you create these properties for all application might be too
+3:20 > high ()??? pie chart  mention how to switch on memory mapping units and how much this influences execution time so a trade-off between
+3:30 > security and timeliness and (stefan weidermann)??? from a land on on demand isolation of applications on multicore systems and and what does this
+3:40 >have for timing analysis and you yourself gave a very interesting example of reconfigured pipelines to have security properties
+3:50 > being enforced and so from an isolation perspective so I'm coming from the security side and I fully agree with you said there
+4:0 > and what we look at is for example multi-stakeholder scenarios so this is a little bit like you're at different time criticality requirements for different applications
+4:10 > you may have different stakeholders on a platform  and on the same platform different trust relationships between each other and which means that you need a plurality of
+4:20 > isolation areas so a single secure world isn't sufficient so thats very important
+4:30 > So we’ll come back to that and we’ll ask him more on that so one thing is what do you mean by predictability
+4:40 > is it only real time or is there something more than real time systems. Would it be just ()?? okay in the seminar
+4:50 > because of the people there had been invited many people talked about timing predictability but of course this is not the only
+5:0 > dimension if you look at systems that you will have possibly in a few years 
+5:10 > is billions of devices right so you expect not only that they work in time but also have are available so availability is also
+5:20 > something you predict and you would like they are available and there are many dimensions like this related to power to energy energy harvesting so there are
+5:30 > many many other aspects that are not covered temperature is another aspect i would like to keep the temperature under control so that many many different aspects
+5:40 > I agree totally I mean if you look at some of the analyst reports we talk that the orders of magnitude change with each analyst that were talking about 20 billion devices IOT devices
+5:50 > by 2020 and one issue really there is that I don't think I don't think it's something we’ve discussed or relevant to predictability but i have to say
+6:0 > how do you actually manage those devices do we can we actually to scale up up to managing lets call them swarm of billions of devices
+6:10 > that's a real issue from the security perspective we’re failing to do it today in smaller and sets of devices
+6:20 > so that’s a real challenge. ()??? wanted to say something. I would like to follow up on your question on predictability and then what (is it that you said)???
+6:30 > so here we have heard and learnt about let’s say timing analysis, WCT analysis and of course a number of people from the audience
+6:40 > who have done a lot of work on this but but with this millions of or maybe not millions but hundreds of devices in one room and with IOT then there are other
+6:50 > sorts of predictability like energy, temperature, and also necessary right now we can't solve that when you try to use static analysis techniques for timing know 
+7:0 > we have quite a bit of success with that in this community but the moment you try to use static analysis for estimating bounds on energy it becomes a
+7:10 > much more difficult problem right because the add R1 R2 R3 form the timing perspective is easier but from the energy perspective it would depend on
+7:20 > the contents of the registers and so on and in this kind of domain relatively less work has been done and i am just wondering
+7:30 > that you know what is the opinion of the the four people in the round table and also others from the audience like professor William
+7:40 > that you know what has what is the current thinking on that using static analysis for other things like energy just to summarise
+7:50 > I guess I can I can try to respond so we we did some work long  back when we looked at how you can do actually worst case analysis for the energy
+8:0 > consumption right and it turns out that you can you can need to assume certain things like for example you can of course find the worst case path and 
+8:10 > you can find out you know what is the worst case number of transitions that's going on and so on and so forth but certain things for example you don't know the values and so you have to assume
+8:20 > that you're going to do you know a hundred percent bit flip on an add operation or whatever it is and I don't think there's any good way to solve that problem and
+8:30 > I think people are now looking at that and saying that the that part of the dynamic energy consumption is probably something that we have to always assume the worst case because it
+8:40 > just the state space will blow up right i mean the kind of problems we face for data caches in terms of modelling this is even worse and so
+8:50 > I don't know whether there is a good way to do that. Can you come forward and please talk
+9:0 > question about predictability in other fields IOT is still in  the embedded space in some sense right can think about like cloud computing if you're building cloud computing infrastructure for like
+9:10 > video streaming and web servers have you need some predictable response times predictability shows predictability shows up at more than just embedded space what i’m saying
+9:20 > and people are trying to reduce these delay latencies for execution in the cloud so its not only confined to the real time embedded IOT space just a comment
+9:30 > Thank you. so i had a small follow up to that so i understand that you know for using static analysis things are difficult i think this is well known 
+9:40 > but my question is you sort of somewhat said that well you know nothing probably can be done I was wondering whether we have also been talking a lot
+9:50 > about predictable architectures in terms of time now the question is for many devices like IOT also implantable medical devices and so on issues like
+10:0 > energy temperature are very important so is there some work or i am not aware of this i am not following this up but i would be very interested in knowing 
+10:10 > is there some work on designing predictable architectures from these perspectives because you know you very correctly mentioned there would be many bit flips and you know it is very difficult to estimate that
+10:20 > but is there any thought on designing a predictable microarchitecture from this perspective. So so a common (method)??? is
+10:30 > of course predictability has various faces okay I think the one of the faces is that you under certain assumptions you really try to prove
+10:40 > that certain behavior will will be there so like upper bounds on timing but i think
+10:50 > what we have been discussing now is a little bit different because its more like a soft view on this because either the
+11:0 > hardware is so complex that is almost impossible to static analyse what is going on or if you talk about energy and energy harvesting you have harvesting sources
+11:10 > that cannot at least not properly describe by (upper bounds)??? right so so it's more statistic view that is necessary here
+11:20 > still under these statistical assumptions that are assumptions like (other)??? assumptions as well you can prove something
+11:30 > and there has been a lot work especially on the energy and harvesting and then all these effects lots of people are working on this. Yea I would extend
+11:40> this to previously what professor ()??? said regarding predictability what is predictability he talked about timing predictability
+11:50> mostly but predictability is also the system will produce certain outputs at certain times
+12:0> and whether the sequences of those outputs and generated events will be satisfied in (all of these)??? properties of the system and
+12:10> how we let’s say can guarantee that those properties can be checked statically first and then can be verified in the
+12:20 > real world So that we ()??? the use i show models of computation and formal methods
+12:30 > which have to be (maintained)??? into software systems i am not talking about building lots of devices single device has to be let's say correct
+12:40 > has to satisfy and demonstrate certain properties. But that's kind of real time right. I wouldn't agree right so i think
+12:50 > from a wider perspective when you see what is going on it's really the other way round right. People try to look more end to end
+13:0 > properties and try to understand what you can achieve let's say also with learning and image understanding and then they even question this what you say namely the function needs to be correct
+13:10 > they talk about proximity of computing and all these things so I think we should be also aware that there are a lot of other things going on that
+13:20 > are going in two different directions. So we’re just saying well it's given then the processor should work functionally correct is in a general sense
+13:30 > not true anymore you anymore not everyone would agree that this is a necessary condition for a good system. Okay let's move on because we got a few more questions
+13:40 > along the way during the seminar we sort of at some point we heard that the industry probably
+13:50 > may not need real time systems that or at least very tightly bound real time systems that loosely bound
+14:0 > real-time systems might be enough and that humans put in checks to make certain that these would work correctly
+14:10 > on the field, under the conditions that are adverse to the system. What are you comments on this do you think that's fair
+14:20 > I think I was talking earlier that I am in a different session about airbus using powerPC
+14:30 > and that (doesn't sound right)??? and that's a that's a processor that was developed no real-time safety predictability concerns
+14:40 > and has been used to fly aeroplanes so clearly the industry some segments of the industry find it acceptable to use
+14:50 > general purpose Computing devices to do these types of tasks
+15:0 > the argument we hear all the time is that financial and commercial continuations 
+15:10 > require that one uses (quad)??? processor is for hard real time systems and that is 
+15:20 > somehow is a argument that is not really questioned and therefore
+15:30 >  continues to dominate the real time sector so since everybody believes in it
+15:40 > processor manufacturers see no reason why they should produce predictable architectures and so they continue and the real time
+15:50 > system implementers have no other choice than to select them for the next system and since now the tendencies 
+16:0 > in the high performance domain go towards less and less predictable architectures
+16:10 > the embedded real time systems domain goes with it. That was the start of our argument
+16:20 > that it is less and less possible to really verify the satisfaction of real time requirements on the other hand
+16:30 > there are systems where you would like to see reactions in time like the airbag like the brake in the car like
+16:40 > also i know embedded systems in planes where you would like to see timely reactions like with flutter control
+16:50 > vibration control in wings is very time sensitive so i see that the problems
+17:0 > remain and become worse with say the advent of autonomous cars but with the current development in architecture
+17:10 > that the potential to solve the problem, potential to verify real time ()??? Disappears so
+17:20 > i'm pretty  pessimistic in this perspective. So as we go for more efficiency we going to probably need more and more time predictable systems
+17:30 > so one should the ultimate goal is to have architectures that allow you to efficiently
+17:40 > determine precise bounds and bounds should be of course low. thank you
+17:50 > so can we just talk about what are the tools and methods or mechanisms that are available for isolation we
+18:0 > have such as virtualization but other methods that mechanisms that we already have or what was discussed at this seminar. So virtualisation
+18:10 > certainly has been used as an isolation mechanism and is used although that's not what it was designed to do and but it is used
+18:20 > and control from the research side there's a lot of work on lightweight isolation mechanisms for microcontroller class devices like (cycles)? we
+18:30 > talked about in the conference (trust lights)??? And they give you some real hardware underpinned security guarantees that
+18:40 > you your code and associated data is isolated from the rest of the system and that's good because that allows you to build predictable systems for example let's say you could
+18:50 > predictability requires a real time scheduler for example you want to make sure  your attacker, your software attacker cannot simply switch (example)???
+19:0 > or tamper with the scheduler so the isolation the isolation mechanisms to do that do exist today both in research and in the industry on that
+19:10 > i think what you do need is you need isolation mechanisms that give you plurality of compartments rather than just a single secure world.
+19:20 > for the reasons that i talked about earlier on for example you might have this multi stakeholder scenario you may have pieces of software pieces of IP from different coming from
+19:30 > different places coexist on the same platform different security guarantee so you do need these many isolated or the ability to instantiate
+19:40 > many isolated compartments. One observation i would like to drop in here also the isolation of a topic here has been shown that it's
+19:50 > not the only it does not guarantee security and predictability in full for example in security if you want to communicate with the outside world
+20:0 > you need also at least additional encryption or other techniques as well as for timing predictability isolation is a helper to get may be tied up
+20:10 > bounds on the execution time but also there you might need other techniques complimentary because you will never be able to isolate applications fully to each
+20:20 > other there's some sharing of resources has been detected as unavoidable here in during the course of this seminar. I think that the statement was that a completely
+20:30 > isolated system is very uninteresting ()??? It reminds me a little bit of the story about microsoft windows NT
+20:40 > being certified for for the highest grade security level and it reached the certification but only if it was disconnected from the network the floppy drives
+20:50 > were disconnected the USB drives were disconnected then it reached the certification and yes you do need to communicate with the isolated process but there are well established best practices
+21:0 > and tools to do that it's not only for example encrypting the channel or protecting the channel it's also ensuring that the isolated compartment that you're communicating with is what you
+21:10 > think it is so you need another station mechanism that is with a local entity on a system or a remote part that you can actually .
+21:20 > get some assurance that its talking to the software it thinks its talking to in the isolaed compartment. But I think these are all solved today in industry
+21:30 > just a comment that when we talk about isolation the question is what do we isolate because systems can communicate either attackers or systems inside could
+21:40 > communicate via many different substrates right so just talking about functional isolation memory they could also possibly speed isolation timing
+21:50 > isolation one processors fast one the other one is slow you can also do whatever temperature isolation so isolation is this something that
+22:0 > works on many different access and they all influence each other right (as well as)??? security sense in terms of cover channels but also in terms of predictability
+22:10 > that the system stops working because it's too hot right so in both areas isolation should cover as many as possible
+22:20 > substrates. Thank you. Just add to that and take in secure community (viewers)??? they have the concept of trusted computing base so somebody mentioned earlier on about complexity 
+22:30 > being the enemy of predictability that's the enemy of security as well so really what you want to do is want to minimize the amount of stuff that you're trusting on the system where stuff is Hardware firmware
+22:40 > and so on so that you have a chance of actually doing some analysis on that trusted computing base and getting some insurance that it’s correct
+22:50 > so it's not about isolation, it’s also about minimizing the amount of stuff you're isolating. just like
+23:0 > to add that isolation sort of gives you analyzability in some sense and we saw that in predictability if you have TDMA that makes your life easier in terms of analysis and 
+23:10 > same for TCP if you have a small footprint for the TCP that helps you in analyzing for security but at the same time it also has overheads and I think that there was a lot
+23:20 > of discussion on what is the overhead for isolation. So can predictable systems be compromised in
+23:30 > a security sense because there is predictability built in so the complexity that is added
+23:40 > for the predictability does that give you a backdoor to security. A simple example is what we just wrote for one of the breakout
+23:50 > sessions on monitoring if you have a watchdog and then of course you can try to make the execution time a little bit longer and now the system
+24:0 > continuously restarts and it's unusable. I'd like to add to that is that really that's probably not have a security tackle happen because
+24:10 >  if you actually look what's happening out in the wild the security attack the attackers used the path of least resistance right so they're going to use things like sleep
+24:20 > and password configurations or look for bugs in programs so they can exploit for buffer overflows and so on and that's really where the attack point is
+24:30 > so what I'm saying is that I think from a modeling and Analysis standards it's whatever it doesn't actually address this particular aspect that needs to be
+24:40 > sort of some basic level of security best practice in terms of making sure that the silly mistakes aren't made and in something like the IOT that becomes an issue
+24:50 > because you have such an incredibly diverse set of players in this ecosystem you've got big companies small companies little companies striving to get a product on to the market as quickly as possible
+25:0 > what's the first thing that drops off the table security so you're seeing really these come around time and time again
+25:10 > can you talk a little bit about go ahead can you come a little bit forward please sorry complicated
+25:20 > attacks necessarily I mean what I mean if there is a economic incentive to make a
+25:30 > attack more complicated maybe hide the fact that there was an attack rather a malfunctioning this is actually not hypothetical but if you think about
+25:40 > what happened to the centrifuges in Iran that's exactly what happened there right so there may be a need to actually more sophisticated
+25:50 > attacks and so if you really want to secure system it you should look at end to end security yes maybe some new term or so which is of
+26:0 > course much Harder to achieve. Sure end to end security absolutely I agree completely it’s absolutely necessary so what the challenge is think we are approaching (secondary this week)???
+26:10 > is how do you push security down to the low end microcontroller class device which is only two dollars three dollars ASP and security is
+26:20 > a tough ask so this end to end vision it is definitely where we’ll get to but it is a challenge when you get into the resource constraints it
+26:30 > it takes time what are the mechanisms that can to make 
+26:40 > to make a to to make a system secure what sort of the mechanisms do we need obviously a crypto system is necessary but are they’re enough
+26:50 > do we need more things. That's a tough question (adult hems)??? On your adversary model and your threat model right that's they way security practitioners
+27:0 > work they have a look at threats random number generator perhaps a good random number generator well I you need I supposed the way to look at this is the minimal set of
+27:10 > stuff that you need touching on the isolation side so if you want to communicate with an external party you're going to need some crypto you're going to need a random number generator
+27:20 > to generate numbers and announce these numbers and so on and so on there is a minimum set of features that you need but i think that's well understood in industry as well
+27:30 > so in this seminar we spoke about a number of tools and mechanisms can somebody can summarize so can we just get a few get a
+27:40 > feel of these tools so there was TCREST there was SYSTEMJ  WCC anything else
+27:50 > that the. secure co for the ()??? Secure co
+28:0 > anything else that i missed out please let us know I'll edit it in it will be good to sort of give us summary of tools and mechanisms that
+28:10 > came out of here into into an article. Just something your comment about this crypto being on obvious thing it's not always obvious because
+28:20 > look at again IOT and these edge ()???  they will not have these where ()?? Where they use these tiny processors that are just doing (setseng)??? A little bit of computation
+28:30 > any crypto that you run might ()??? But if it is secure does it need crypto for it to be secure does it need cryptography
+28:40 > It might not be but I’m saying it might not be the obvious thing you can apply apply okay okay so just to i think we only got about four or five pages
+28:50 > i don't think we can go on for too long but i just want to find out what challenges were identified going forward I think we can probably
+29:0 > if you don't if you miss something you can always get edit it in later edit it in later but can you. what i took away from this workshop is 
+29:10 > two things that obviously seemed to be important and have not been done adequately for example one is how to lift Consciousness about non functional properties such
+29:20 > as timeliness and security as two important members here to system level design model-based and languages also
+29:30 > so typically at language level the highest level you don't specify that but these properties come only in very late
+29:40 > which is contradictory to previous design of languages as it should ease you your what is concerning you at the highest level but it it seems it
+29:50 > comes only in later when you verify that the synthesized code is not satisfying time in is or whatever but you have models of concurrency in languages already that could help you
+30:0 > to create better or to do the isolation as a consideration also in how you model concurrency and how you would map something in terms of codesign
+30:10 > to an architecture with multiple cores to create this isolation or whether it’s costly or not and go in hand and that this design methodology currently is I guess is not major
+30:20 > or not available to express this at the highest level these concerns second is what is the cost of the measures of getting and creating Security on the system as well
+30:30 > as predictability as for reliability there has been lot of work done as how much costly is it to protect latches against some SAU
+30:40 > fault so (faser)??? Latches or what measures of redundancy will create what type of cost but I think in what is the cost of a
+30:50 > timing predictable implementation or what is the cost of the security measures seems to be not completely clear if you want to add this and
+31:0 > know how much more does this cost to you when you do this design decision. Yes. Interestingly enough there was already a german
+31:10 > A programming language specified in the german (stungart)? in the beginning of the 90s with full specification
+31:20 > of timing behaviour which was call plural unfortunately it lost against ADA which had an unusable real time semantics 
+31:30 > and so it was made more or less out of the market but it had the full calculus of specifying the timing requirements in
+31:40 > the program. Yes sorry go ahead. ()??? I think we should 
+31:50 > do it basically like our (groceries)??? would do and to look for the weakest points of the tech basically and so I think we rightfully identified
+32:0 > already that the processors are not necessary designed with predictability in mind there are Arguments for and against that but that's certainly a very thick (door)???
+32:10 > to take but just as We complain that processor designers are not having predictability in mind we might as well complain that compiler writers
+32:20 > do not have predictability in mind or that modeling tools with their code generators do not have predictability in mind and we saw some examples like (Michael’s)??? Presentation earlier.
+32:30 > where you can do something at the compiler side also and so I propose that we really look at the whole spectrum there
+32:40 > the last question. What sort of challenges were identified in both in meetings as well as in the Breakout
+32:50 > sessions can someone summarise fairly quickly i don't know whether you have anything ()??? Have we talked about the challenges maybe the action items. The action
+33:0 > items perhaps sorry not the challenges i said sorry the action items the concrete action items that going forward other than talking about it
+33:10 > Before that can i make a statement on the mechanism for the isolation which came to my mind now because of the 
+33:20 > notion of isolation goes against the definition we have been given giving to on chip matters for years these they system integration framework that
+33:30 > is a component push all the things together so i think that if you really wanna have strong isolation you should act also upon your chip (matro)???
+33:40 > that is you should forbid some routes in order to get this kind of isolation and this leads to a notion of spatial partitioning 
+33:50 > however at a certain point as you were pointing out you need to get out of these spatial entities in order to reach at least the memory controllers and in theory
+34:0 > you would need to preserve isolation i mean you need one network for every spatial partition. However this is of course not possible and that's the point where you start collapsing
+34:10 > all these theoretical networks together and that's the point where you start feeling the need of bound interference such as ()?? mechanism
+34:20 > or in the extreme case (tembrock)??? Isolation okay since (almond)??? Is not here i'll the attack models session
+34:30 > actually had i think a somewhat concrete idea that you know you need to come up with a systematic way of defining attack models especially for the system space the crypto guys have that stuff fairly
+34:40 > well figured out but not in system space so here the idea that we could come up with like some reference system that all of us could try various kinds of attack models and see how
+34:50 > to define the attack model for those reference systems and then what are the outcomes of that and how that will affect the security research and so on so i think that's a concrete thing that some of us were planning to follow
+35:0 >yea i think the other concrete thing that came out of the session where we are talking about whether you need predictability or not was that whether we can create a reference system with a reference
+35:10 > architecture reference operating system and some benchmarks and that can be used as a reference point for people to try out you know their techniques and sort of
+35:20 > compare against it and sort of because that's the golden design. So with that thank you very much everybody much appreciated i'll try and circulate this around
+35:30 > before before sending it to a publication thank you

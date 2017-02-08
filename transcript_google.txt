@@ -1,7 +1,3 @@
-0:0 > another country thing that came out of the station while you were talking about over there you need protective like you're not was there for the weekend created for the
-0:10 > Stanley the reference architecture different operating system and something small and that can be used as a reference point for people to try out their techniques and
-0:20 > compare against each other. Thank you very much everybody much appreciated
-0:30 > and it's around 4 before 7 thank you
 0:0 > organising the topic of
 0:10 > Nations how to create two very important non functional properties of programs on today's architecture
 0:20 > predictability of timing as well as security would be the topic to isolate the different programs and resources
@@ -212,3 +208,7 @@ Google Speech Recognition could not understand audio
 1:20 > okay
 2:0 > the country thing that came out of the station while you were talking about the weather you need predictability or not was that way we can create references
 2:10 > the difference architecture different operating system and some benchmarks and that can be used as a reference point for people to try out their techniques and soda
+0:0 > another country thing that came out of the station while you were talking about over there you need protective like you're not was there for the weekend created for the
+0:10 > Stanley the reference architecture different operating system and something small and that can be used as a reference point for people to try out their techniques and
+0:20 > compare against each other. Thank you very much everybody much appreciated
+0:30 > and it's around 4 before 7 thank you
